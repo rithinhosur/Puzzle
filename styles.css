@@ -56,15 +56,19 @@ button {
     padding: 10px;
     font-size: 16px;
     cursor: pointer;
-    display: flex;
-  flex-direction: row;
-  justify-content: center;
     background-color: #3f51b5; /* Button background color */
     color: white; /* Button text color */
     border: none;
     border-radius: 5px; /* Rounded corners for buttons */
     transition: background-color 0.3s; /* Smooth transition for hover effects */
 }
+nav
+{
+display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+    
 
 button:hover {
     background-color: #303f9f; /* Darker shade on hover */

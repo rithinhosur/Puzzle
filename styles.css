@@ -2,8 +2,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: Arial, sans-serif;
-    background-color: #f7f9fc; /* Light background color for the body */
+    font-family: 'Times New Roman', serif; /* Changed font style */
+    background-color: #d2b48c; /* Light brown background color */
     margin: 0;
     padding: 20px;
     border: #303f9f;
@@ -11,7 +11,7 @@ body {
 
 h1 {
     margin-bottom: 20px;
-    color: #3f51b5; /* Header text color */
+    color: #003366; /* Dark blue font color */
 }
 
 header {

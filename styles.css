@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f7f9fc; /* Light background color for the body */
+    margin: 0;
+    padding: 20px;
+    border: #303f9f;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #3f51b5; /* Header text color */
+}
+
+header {
+    background-color: #3f51b5; /* Header background color */
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 8px;
+}
+
+#puzzleGrid {
+    display: grid;
+    gap: 5px;
+    margin-top: 20px;
+    background-color: rgb(217, 230, 230);
+}
+
+.cell {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue; /* Cell background color */
+    font-size: 20px;
+    border: 1px solid #333;
+    border-radius: 5px; /* Rounded corners for cells */
+    transition: background-color 0.3s; /* Smooth transition for hover effects */
+}
+
+.cell:hover {
+    background-color: #87ceeb; /* Lighter blue on hover */
+}
+
+.blank {
+    background-color: lightgray; /* Background color for the blank cell */
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3f51b5; /* Button background color */
+    color: white; /* Button text color */
+    border: none;
+    border-radius: 5px; /* Rounded corners for buttons */
+    transition: background-color 0.3s; /* Smooth transition for hover effects */
+}
+
+button:hover {
+    background-color: #303f9f; /* Darker shade on hover */
+}

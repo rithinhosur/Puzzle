@@ -2,8 +2,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Times New Roman', serif; /* Changed font style */
-    background-color: #d2b48c; /* Light brown background color */
+    font-family: 'Arial', sans-serif; /* Changed font style */
+    background-color: #f0f8ff; /* Light blue background color */
     margin: 0;
     padding: 20px;
     border: #303f9f;
@@ -11,11 +11,11 @@ body {
 
 h1 {
     margin-bottom: 20px;
-    color: #003366; /* Dark blue font color */
+    color: #2c3e50; /* Darker blue font color */
 }
 
 header {
-    background-color: #3f51b5; /* Header background color */
+    background-color: #3498db; /* Header background color */
     color: white;
     width: 100%;
     text-align: center;
@@ -27,7 +27,7 @@ header {
     display: grid;
     gap: 5px;
     margin-top: 20px;
-    background-color: #d2b48c;
+    background-color: #f0f8ff; /* Same as body background */
 }
 
 .cell {
@@ -36,37 +36,34 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lightgreen; /* Cell background color */
-    font-size: 20px;
+    background-color: #8e44ad; /* Cell background color */
+    font-size: 24px; /* Increased font size */
+    color: white; /* Font color for cells */
     border: 1px solid #333;
-    border-radius: 5px; /* Rounded corners for cells */
+    border-radius: 10px; /* More rounded corners for cells */
     transition: background-color 0.3s; /* Smooth transition for hover effects */
 }
 
 .cell:hover {
-    background-color: #87ceeb; /* Lighter blue on hover */
+    background-color: #e74c3c; /* Lighter red on hover */
 }
 
 .blank {
-    background-color: lightgray; /* Background color for the blank cell */
+    background-color: #bdc3c7; /* Background color for the blank cell */
 }
 
 button {
     margin: 10px;
     padding: 10px;
-    font-size: 16px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    font-size: 18px; /* Increased font size */
     cursor: pointer;
-    background-color: #3f51b5; /* Button background color */
+    background-color: #3498db; /* Button background color */
     color: white; /* Button text color */
     border: none;
     border-radius: 5px; /* Rounded corners for buttons */
     transition: background-color 0.3s; /* Smooth transition for hover effects */
 }
-    
 
 button:hover {
-    background-color: #303f9f; /* Darker shade on hover */
+    background-color: #2980b9; /* Darker shade on hover */
 }

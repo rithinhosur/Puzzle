@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Puzzle Solver</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Number Puzzle Solver</h1>
+
+    <div>
+        <label for="gridSize">Select grid size:</label>
+        <select id="gridSize" onchange="createPuzzle()">
+            <option value="2">2x2</option>
+            <option value="3">3x3</option>
+            <option value="4">4x4</option>
+            <option value="5">5x5</option>
+        </select>
+    </div>
+
+    <div id="puzzleGrid"></div>
+
+    <button id="shuffle" onclick="shufflePuzzle()">Shuffle Puzzle</button>
+    <button id="order" onclick="orderPuzzle()">Order Puzzle</button>
+    <button id="solve" onclick="solvePuzzle()">Solve Puzzle</button> <!-- Solve button -->
+
+    <script src="script.js"></script>
+</body>
+</html>

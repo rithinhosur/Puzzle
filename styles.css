@@ -27,7 +27,7 @@ header {
     display: grid;
     gap: 5px;
     margin-top: 20px;
-    background-color: rgb(217, 230, 230);
+    background-color: lightgreen;
 }
 
 .cell {

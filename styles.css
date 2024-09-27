@@ -36,7 +36,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lightblue; /* Cell background color */
+    background-color: lightgreen; /* Cell background color */
     font-size: 20px;
     border: 1px solid #333;
     border-radius: 5px; /* Rounded corners for cells */
